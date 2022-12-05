@@ -1,5 +1,4 @@
 ==================================================================
-
 **Maksim Sugak**
 ====================
 
@@ -31,6 +30,14 @@ I am 22 years old. I want to realize myself as a Front-end developer.
     arr.sort((a, b) => a - b);
     return arr[0] + arr[1]
   }
+  
+**Education**
+-------------
+
+*   **University:** International University "MITSO"
+*   **Courses:**
+    *   [HTML Academy](https://www.htmlacademy.ru)
+
 
 **English**
 -----------
