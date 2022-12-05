@@ -1,4 +1,4 @@
-==================================================================
+
 **Maksim Sugak**
 ====================
 
@@ -6,7 +6,7 @@
 ------------
 
 *   **Location:** Minsk, Belarus
-*   **Phone:** +375 29 364-27-25
+*   **Phone:** +375 33 364-27-25
 *   **Email:** kwiiki@icloud.com
 *   **GitHub:** [kwiki936](https://github.com/kwiki936)
 
