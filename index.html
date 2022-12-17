@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Cv</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="menu">
+        <ul class="menu-items">
+          <li class="menu-item">
+            <a class="item-link" href="#Contacts">Contacts</a>
+          </li>
+          <li class="menu-item">
+            <a class="item-link" href="#Summary">Summary</a>
+          </li>
+          <li class="menu-item">
+            <a class="item-link" href="#Skills">Skills</a>
+          </li>
+          <li class="menu-item"><a class="item-link" href="#Code">Code</a></li>
+          <li class="menu-item">
+            <a class="item-link" href="#Projects">Projects</a>
+          </li>
+          <li class="menu-item">
+            <a class="item-link" href="#Education">Education</a>
+          </li>
+          <li class="menu-item">
+            <a class="item-link" href="#English">English</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="main-header">
+        <div class="header-name">
+          <h1>Sugak Maksim</h1>
+          <h3>Front-end developer</h3>
+        </div>
+        <div class="aboutMe">
+          <img class="about-avatar" src="./assets/avatar.jpeg" alt="Avatar" />
+        </div>
+      </div>
+      <hr class="line" />
+      <div class="main-info">
+        <div class="info-item">
+          <h4 id="Contacts">CONTACTS</h4>
+          <p class="location">Minsk,Belarus</p>
+          <p class="email">Email: kwiiki@icloud.com</p>
+          <p class="github">GitHub: https://github.com/kwiki936</p>
+        </div>
+        <div class="info-item">
+          <h4 id="Summary">SUMMARY</h4>
+          <p>
+            I have been interested in programming for a long time. I took
+            several training courses, at the moment I'm studying native
+            JavaScript in depth. My goal is to understand JavaScript and move on
+            to learning the React library.
+          </p>
+        </div>
+        <div class="info-item">
+          <h4 id="Skills">SKILLS</h4>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+            <li>GIT</li>
+            <li>FIGMA</li>
+          </ul>
+        </div>
+        <div class="info-item">
+          <h4 id="Code">CODE</h4>
+          <code>
+            const list = (str) => {<br />
+            let newStr = str.split(' ').map(item => +item).sort(); <br />
+            return ${newStr[newStr.length - 1]} ${newStr[0]} <br />
+            }
+          </code>
+        </div>
+        <div class="info-item">
+          <h4>COURSES</h4>
+          <ul>
+            <li>HTML Academy</li>
+            <li>Hexlet</li>
+            <li>Code Basic</li>
+            <li>Redev Courses</li>
+          </ul>
+        </div>
+        <div class="info-item">
+          <h4 id="Projects">PROJECT</h4>
+          <ul>
+            <li>
+              <a href="https://github.com/kwiki936/willberries">Willberries</a>
+            </li>
+            <li>
+              <a href="https://github.com/kwiki936/AirPods-maket"
+                >AirPods-maket</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/kwiki936/Maket-BMW">Maket-BMW</a>
+            </li>
+          </ul>
+        </div>
+        <div class="info-item">
+          <h4 id="Education">EDUCATION</h4>
+          <p>International University "MITSO"</p>
+        </div>
+        <div class="info-item">
+          <h4 id="English">ENGLISH</h4>
+          <p>A2 - Pre-Intermediate</p>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-link">
+        <span>&#169; 2022</span>
+        <a href="https://github.com/kwiki936">GitHub: kwiki936</a>
+        <a href="https://rs.school/js/">Rs Schooll courses</a>
+      </div>
+      <div class="footer-logo">
+        <img
+          class="logo"
+          src="./assets/rs_school_js.svg"
+          alt="Rs Schooll Logo"
+        />
+      </div>
+    </footer>
+  </body>
+</html>
