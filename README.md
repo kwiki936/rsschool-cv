@@ -1,2 +1,1 @@
-
-https://kwiki936.github.io/rsschool-cv/
+docs: update
